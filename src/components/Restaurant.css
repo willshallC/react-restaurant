@@ -87,3 +87,11 @@ body{
 .nav-btn:hover{
     border-top: 5px solid purple;
 }
+
+/* media */
+
+@media screen and (max-width: 800px) {
+    .menu-container{
+        width: 100%;
+    }
+}
