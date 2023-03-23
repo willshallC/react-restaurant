@@ -5,9 +5,11 @@ body{
 }
 .menu-section{
     width: 100%;
+    display: flex;
 }
 
 .menu-container{
+    margin: 5px;
     width: 33%;
     background-color: white;
     border-radius: 10px;
