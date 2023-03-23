@@ -12,6 +12,7 @@ const NavMenu = ({filterItems, list}) =>{
                         )
                     })
                 }
+                <button className="nav-btn" onClick={()=>{filterItems("all")}}>All</button>
             </div>
         </div>
     </div>);

@@ -17,6 +17,9 @@ const Restaurant = () =>{
     console.log(menu);
 
     const filterItems = (category) =>{
+        if(category=="all"){
+            return setMenu(MenuApi);
+        }
         const newList = MenuApi.filter((curCat)=>{
             return curCat.category === category;
         })
