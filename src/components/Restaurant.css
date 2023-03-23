@@ -40,6 +40,8 @@ body{
 }
 .menu-description{
     font-style: italic;
+    color: gray;
+    font-weight: bold;
 }
 .menu-imgage{}
 .menu-image img{
