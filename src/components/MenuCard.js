@@ -17,6 +17,7 @@ const MenuCard = ({menu}) => {
                                 <div className="menu-image">
                                     <img src={curData.image} alt="foto"/>
                                 </div>
+                                <button className="menu-btn">Order Now</button>
                             </div>
                         );
                     })
