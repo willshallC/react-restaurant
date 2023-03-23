@@ -1,8 +1,9 @@
 import './App.css';
+import Restaurant from "./components/Restaurant";
 
 function App() {
   return (
-    <div>Hi</div>
+    <Restaurant/>
   );
 }
 
