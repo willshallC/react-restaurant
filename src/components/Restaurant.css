@@ -1,6 +1,7 @@
 
 body{
     background: linear-gradient(to right,#FBD3E9, #BB377D);
+    padding: 10px;
 }
 .menu-section{
     width: 100%;
@@ -11,6 +12,7 @@ body{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 0 0 6px 6px #BB377D;
 }
 .menu-info-container{
     display: flex;
